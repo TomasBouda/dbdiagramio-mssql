@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDiagramIo.MsSql", "DbDiagramIo.MsSql\DbDiagramIo.MsSql.csproj", "{2B68DE74-9ECE-4A00-8263-0D3E4E608408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbDiagramIo.MsSql", "DbDiagramIo.MsSql\DbDiagramIo.MsSql.csproj", "{2B68DE74-9ECE-4A00-8263-0D3E4E608408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.DotNetCore", "Example.DotNetCore\Example.DotNetCore.csproj", "{AD3E870C-FD95-4601-8D2A-04B102369D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.DotNetCore", "Example.DotNetCore\Example.DotNetCore.csproj", "{AD3E870C-FD95-4601-8D2A-04B102369D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Dotnet461", "Example.Dotnet461\Example.Dotnet461.csproj", "{E417CD4E-4C05-4241-888A-C99D1198DABD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{416AAB75-36B3-48B2-A43A-FFB7F3928FDC}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDiagramIo.CLI", "DbDiagramIo.CLI\DbDiagramIo.CLI.csproj", "{88EDD710-12DA-4C1F-9F2C-2415835A3402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{D401BF61-DB8D-4D60-A3A0-E01967458D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbDiagramIo.Core", "DbDiagramIo.Core\DbDiagramIo.Core.csproj", "{75DA610B-BBB1-42AB-A1B7-7BAB7AD57D3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,15 +33,22 @@ Global
 		{AD3E870C-FD95-4601-8D2A-04B102369D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3E870C-FD95-4601-8D2A-04B102369D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3E870C-FD95-4601-8D2A-04B102369D87}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E417CD4E-4C05-4241-888A-C99D1198DABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E417CD4E-4C05-4241-888A-C99D1198DABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E417CD4E-4C05-4241-888A-C99D1198DABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E417CD4E-4C05-4241-888A-C99D1198DABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EDD710-12DA-4C1F-9F2C-2415835A3402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EDD710-12DA-4C1F-9F2C-2415835A3402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EDD710-12DA-4C1F-9F2C-2415835A3402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EDD710-12DA-4C1F-9F2C-2415835A3402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DA610B-BBB1-42AB-A1B7-7BAB7AD57D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DA610B-BBB1-42AB-A1B7-7BAB7AD57D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DA610B-BBB1-42AB-A1B7-7BAB7AD57D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DA610B-BBB1-42AB-A1B7-7BAB7AD57D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {72353AAB-C945-4F24-9FBF-41DFABBC3CB2}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD3E870C-FD95-4601-8D2A-04B102369D87} = {D401BF61-DB8D-4D60-A3A0-E01967458D32}
 	EndGlobalSection
 EndGlobal
